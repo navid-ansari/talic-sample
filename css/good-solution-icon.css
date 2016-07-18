@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "good-solution-icon";
+  src:url("../fonts/good-solution-icon.eot");
+  src:url("../fonts/good-solution-icon?#iefix") format("embedded-opentype"),
+    url("../fonts/good-solution-icon") format("woff"),
+    url("../fonts/good-solution-icon.ttf") format("truetype"),
+    url("../fonts/good-solution-icon.svg#untitled-font-6") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "good-solution-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "good-solution-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: "\61";
+}
+.icon-2:before {
+  content: "\62";
+}
+.icon-4:before {
+  content: "\63";
+}
+.icon-3:before {
+  content: "\64";
+}
+.icon-5:before {
+  content: "\65";
+}
+.icon-6:before {
+  content: "\66";
+}
+.icon-7:before {
+  content: "\67";
+}
+.icon-8:before {
+  content: "\68";
+}
+.icon-9:before {
+  content: "\69";
+}
+.icon-10:before {
+  content: "\6a";
+}
+.icon-11:before {
+  content: "\6b";
+}
+.icon-12:before {
+  content: "\6c";
+}
+.icon-14:before {
+  content: "\6d";
+}
+.icon-27:before {
+  content: "\6e";
+}
+.icon-26:before {
+  content: "\6f";
+}
+.icon-25:before {
+  content: "\70";
+}
+.icon-24:before {
+  content: "\71";
+}
+.icon-23:before {
+  content: "\72";
+}
+.icon-22:before {
+  content: "\73";
+}
+.icon-21:before {
+  content: "\74";
+}
+.icon-20:before {
+  content: "\75";
+}
+.icon-19:before {
+  content: "\76";
+}
+.icon-18:before {
+  content: "\77";
+}
+.icon-17:before {
+  content: "\78";
+}
+.icon-16:before {
+  content: "\79";
+}
+.icon-15:before {
+  content: "\7a";
+}
+.icon-28:before {
+  content: "\41";
+}
+.icon-29:before {
+  content: "\42";
+}
+.icon-30:before {
+  content: "\43";
+}
+.icon-31:before {
+  content: "\44";
+}
+.icon-32:before {
+  content: "\45";
+}
+.icon-33:before {
+  content: "\46";
+}
+.icon-34:before {
+  content: "\47";
+}
+.icon-35:before {
+  content: "\48";
+}
+.icon-36:before {
+  content: "\49";
+}
+.icon-37:before {
+  content: "\4a";
+}
+.icon-39:before {
+  content: "\4b";
+}
+.icon-40:before {
+  content: "\4c";
+}
+.icon-41:before {
+  content: "\4d";
+}
+.icon-asset-33:before {
+  content: "\4e";
+}
+.icon-asset-5:before {
+  content: "\4f";
+}
+.icon-47:before {
+  content: "\50";
+}
+.icon-46:before {
+  content: "\51";
+}
+.icon-45:before {
+  content: "\52";
+}
+.icon-44:before {
+  content: "\53";
+}
+.icon-42:before {
+  content: "\54";
+}

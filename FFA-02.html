@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!--    <link href="lib/ionic/css/ionic.css" rel="stylesheet">-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/good-solution-icon.css" rel="stylesheet">
+    <!--    <link href="css/angular.panels.min.css" rel="stylesheet">-->
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <!--    <script src="js/angular.panels.min.js"></script>-->
+</head>
+
+<body ng-app="starter">
+
+    <ion-pane>
+        <!--
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ionic Blank Starter</h1>
+      </ion-header-bar>
+-->
+        <ion-content>
+            <div class="Fact-finder-header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="logo-block pull-left">
+                            <a href="" data-ng-click="leftOpen()"> <i class="fa fa-bars" aria-hidden="true"></i></a>
+                        </div>
+                        <h2 class="header-title text-center">Fact Finder For Need Analysis</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time_line">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="time-line-head" style="position:relative;">
+                                <div class="time-line-divider"></div>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="anchor-active">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count time-active">1</span>
+                                            </span>
+                                            <span class="timeline-content">Mandatory<br> Fields</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="anchor-active-completed">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count time-line-completed">2</span>
+                                            </span>
+                                            <span class="timeline-content">Life<br>Stage</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count ">3</span>
+                                            </span>
+                                            <span class="timeline-content">Need Identification<br>& Prioritization</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count">4</span>
+                                            </span>
+                                            <span class="timeline-content">Prefered Payout<br>Option</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count">5</span>
+                                            </span>
+                                            <span class="timeline-content">Risk<br>Assessment</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count">6</span>
+                                            </span>
+                                            <span class="timeline-content">Product<br>Recommendations</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="background:#1c2535; width:50px; height:40px; display:inline-block">
+                                                    <span class="time-line-count">7</span>
+                                            </span>
+                                            <span class="timeline-content">Customer’s<br>Consent</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sis-form-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="form-group custom-form">
+                                <div class="form-group custom-form">
+                                    <label for="sel1" class="form-label">Age 28 years</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="form-group custom-form">
+                                <label class="form-label">Current Life Stage</label>
+                                <div class="fact-radio-wrapper">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdStageSingle" name="rdStage" checked/>
+                                                <label for="rdStageSingle" class="form-label">Single and Working</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdStageMarried" name="rdStage" />
+                                                <label for="rdStageMarried" class="form-label">Married Without Children</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdRelationshipParent" name="rdStage" />
+                                                <label for="rdRelationshipParent" class="form-label">Parent with young children</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdRelationshipGrown" name="rdStage" />
+                                                <label for="rdRelationshipGrown" class="form-label">Parent with grown up children</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdRelationshipNearing" name="rdStage" />
+                                                <label for="rdRelationshipNearing" class="form-label">Nearing retirement</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="fact-wrapper yes-wrapper">
+                                                <input type="radio" id="rdRelationshipRetired" name="rdStage" />
+                                                <label for="rdRelationshipRetired" class="form-label">Retired</label>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="row">
+                                    <div class="fact-middle-button">
+                                        <div class="col-xs-12 col-sm-offset-3 col-sm-3 col-md-3">
+                                            <div class="custom-btn form-btn-wrap fact-btn-left">
+                                                <button class="btn btn-default btn-block">Back</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3 col-md-3">
+                                            <div class="custom-btn form-btn-wrap fact-btn-right">
+                                                <button class="btn btn-default btn-block">Continue</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-pane>
+</body>
+
+</html>
